@@ -51,7 +51,7 @@ then i run the application my application theme change and works properly i feel
 
 1025
 
-i started to add the three project in classlibray
+i started to add the three project As classlibray
 
 1030
 
