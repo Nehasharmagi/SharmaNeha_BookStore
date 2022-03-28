@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Abp" Version="7.1.0" />
+    <PackageReference Include="DevExpress.Xpo" Version="21.2.6" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.14" />

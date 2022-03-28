@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NehaBooks.DataAccess.Repository.IRepository
 {
-   public interface ICategoryRepository :IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
         void Update(CategoryRepository category);
     }

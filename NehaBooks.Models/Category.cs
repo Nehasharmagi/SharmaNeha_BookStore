@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NehaBooks.Models
 {
-   public  class Category
+    public class Category
     {
         [Key]
         public int Id { get; set; }

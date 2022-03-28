@@ -27,7 +27,7 @@ namespace NehaBooks.DataAccess.Repository
         public void Dispose()
         {
             _db.Dispose();
-            
+
         }
 
         public void Execute(string procedurename, DynamicParameters param = null)
@@ -57,7 +57,7 @@ namespace NehaBooks.DataAccess.Repository
                 var result = SqlMapper.QueryMultiple(sqlCon, procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
                 var item1 = result.Read<T1>().ToList();
                 var item2 = result.Read<T2>().ToList();
-                if(item1!=null && item2 != null)
+                if (item1 != null && item2 != null)
                 {
                     return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
                 }
