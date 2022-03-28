@@ -165,6 +165,27 @@ i run the update database command on pm console...
 
 i view the sql server table
 
+28-03-2022
+
+1230
+
+i create the category class in models libray class
+
+1240
+
+write the code in category and add the packages
+
+1000
+
+add the migration AddCategoryToDB in NehaBooksdataaccess
+
+1003
+
+again update the command run..
+
+i got tried little bit....
+
+
 
 
 
