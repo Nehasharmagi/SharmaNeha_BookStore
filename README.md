@@ -1,4 +1,5 @@
-﻿**************************************************************
+# SharmaNeha_BookStore
+**************************************************************
 ********            Name :Neha Sharma                **********
 ********            Student Id:-0784767               **********
 ********            Project Name : Neha Book Store    **********
@@ -51,7 +52,7 @@ then i run the application my application theme change and works properly i feel
 
 1025
 
-i started to add the three project As classlibray
+i started to add the three project in classlibray
 
 1030
 
