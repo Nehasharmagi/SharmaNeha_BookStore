@@ -16,7 +16,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DevExpress.Xpo;
 
 namespace SharmaNeha_BookStore
 {
@@ -39,7 +38,7 @@ namespace SharmaNeha_BookStore
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
