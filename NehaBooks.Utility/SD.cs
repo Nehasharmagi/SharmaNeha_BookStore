@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NehaBooks.Utility
 {
-  public static  class SD
+    public static class SD
     {
     }
 }

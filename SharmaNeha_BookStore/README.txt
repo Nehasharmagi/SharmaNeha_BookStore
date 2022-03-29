@@ -132,3 +132,62 @@ upload the project on github resp...
 3040
 
 I am happy application run successfully.......
+
+27-03-2022
+
+work on setup database
+1138
+
+first i bulid my project 
+
+1145
+
+add the migration folder in NehaBooks.DataAcess
+
+1150
+
+build succeded and done
+
+1205
+
+update the database run
+
+1206
+i got error of packages
+
+i remove it with in 10 minutes after 
+
+1215
+
+i run the update database command on pm console...
+
+1220
+
+i view the sql server table
+
+28-03-2022
+
+1230
+
+i create the category class in models libray class
+
+1240
+
+write the code in category and add the packages
+
+1000
+
+add the migration AddCategoryToDB in NehaBooksdataaccess
+
+1003
+
+again update the command run..
+
+i got tried little bit....
+
+
+
+
+
+
+
