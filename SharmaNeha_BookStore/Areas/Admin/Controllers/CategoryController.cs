@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SharmaNeha_BookStore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
