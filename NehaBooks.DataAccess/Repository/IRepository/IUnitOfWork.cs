@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NehaBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork : IDisposable
+    interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
