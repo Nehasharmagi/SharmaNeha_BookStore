@@ -211,7 +211,18 @@ And i run the application my application run sucessfully... little happy..
 
 After i add the categorycontroller.cs in the category folder...
 
+2000
 
+after that i add the category folder in admin ,view
+
+2010
+
+then i add view class as Index.cshtml add for add the category...
+
+
+2020 
+
+i run the application and my application sucessfully and it shows me add category page
 
 
  
