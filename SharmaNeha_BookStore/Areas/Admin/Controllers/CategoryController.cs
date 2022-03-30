@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NehaBooks.DataAccess.Repository;
 using System;
 using System.Collections.Generic;
@@ -21,7 +20,15 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
         {
             return View();
         }
-        
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
+
+        }
+        #endregion
     }
 }
 
