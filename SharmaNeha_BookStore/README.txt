@@ -195,9 +195,23 @@ With in Respository craete IRepository like ICategoryRepository,IRepository.cs,I
 
 29-03-2022
 
+1000
+
 After that i Create the class of that repository....
 
 And then i add the UnitOF Work In startup.cs
+
+i got error after that i add using statement in startup.cs 
+
+1030
+
+And i run the application my application run sucessfully... little happy..
+
+1040
+
+After i add the categorycontroller.cs in the category folder...
+
+
 
 
  
