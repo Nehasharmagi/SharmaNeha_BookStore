@@ -185,6 +185,22 @@ again update the command run..
 
 i got tried little bit....
 
+28-03-2022
+
+1105
+
+After that i Craete repository folder in dataAcess
+
+With in Respository craete IRepository like ICategoryRepository,IRepository.cs,ISP_call.cs,IUnitOFWork.cs
+
+29-03-2022
+
+After that i Create the class of that repository....
+
+And then i add the UnitOF Work In startup.cs
+
+
+ 
 
 
 
