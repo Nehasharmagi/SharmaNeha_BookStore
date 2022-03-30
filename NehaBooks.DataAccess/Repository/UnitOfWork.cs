@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace NehaBooks.DataAccess.Repository
 {
-    public class IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
-        public IUnitOfWork(ApplicationDbContext db)
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
