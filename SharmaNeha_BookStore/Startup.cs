@@ -40,7 +40,7 @@ namespace SharmaNeha_BookStore
             
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            //services.AddScoped<IUnitOfWork, NehaBooks.DataAccess.Repository.UnitOfWork>();
+            
           services.AddScoped<NehaBooks.DataAccess.Repository.IRepository.IUnitOfWork, NehaBooks.DataAccess.Repository.UnitOfWork>();
             services.AddControllersWithViews();
 
