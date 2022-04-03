@@ -34,6 +34,47 @@ i create my README file for what i can do till now and at end of the project....
 
 I upload my project to github accpunt
 
+28-03-2022
+
+1105
+
+After that i Craete repository folder in dataAcess
+
+With in Respository craete IRepository like ICategoryRepository,IRepository.cs,ISP_call.cs,IUnitOFWork.cs
+
+29-03-2022
+
+1000
+
+After that i Create the class of that repository....
+
+And then i add the UnitOF Work In startup.cs
+
+i got error after that i add using statement in startup.cs 
+
+1030
+
+And i run the application my application run sucessfully... little happy..
+
+1040
+
+After i add the categorycontroller.cs in the category folder...
+
+2000
+
+after that i add the category folder in admin ,view
+
+2010
+
+then i add view class as Index.cshtml add for add the category...
+
+
+2020 
+
+i run the application and my application sucessfully and it shows me add category page
+
+
+
 1245
 
 I got tried Then i get relax for few min....
