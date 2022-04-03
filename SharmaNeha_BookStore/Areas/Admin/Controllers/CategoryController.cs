@@ -22,19 +22,23 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
         {
             return View();
         }
-        public IActionResult Upsert(int? id)
+        public IActionResult Upsert(Category category)
         {
-            Category category = new Category();
-            if (id == null)
+
+            if (ModelState.IsValid)
             {
-                return View(category);
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
             }
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if (category == null)
-            {
-                return NotFound();
-            }
-            return View();
+            return View(category);
         }
         #region API CALLS
         [HttpGet]
