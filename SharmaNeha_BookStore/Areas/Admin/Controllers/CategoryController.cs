@@ -22,6 +22,25 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Upsert(int? id)  //action method for Upsert
+        {
+            Category category = new Category();   // using NehaBooks.Models;
+            if (id == null)
+            {
+                // this is for create
+                return View(category);
+            }
+            // this for the edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
+        //use HTTP POST to define thepost-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
 
