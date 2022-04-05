@@ -1,6 +1,7 @@
 ﻿const { Toast } = require("bootstrap");
 
 var dataTable;
+exports.dataTable = dataTable;
 
 $(document).ready(function () {
     loadDataTable();
@@ -39,22 +40,21 @@ function Delete(url) {
         icon: "Waring",
         button: true,
         dangerMode: true
-
     }).then((willDelete) => {
-    if (willDelete) {
-        $ajax({
-            type: "DELETE",
-            url: url,
-            suceess: function (data) {
-                if (data.success) {
-                    Toastr.success(data.message);
-                    dataTable.ajax.reload();
+        if (willDelete) {
+            $ajax({
+                type: "DELETE",
+                url: url,
+                suceess: function (data) {
+                    if (data.success) {
+                        Toastr.success(data.message);
+                        dataTable.ajax.reload();
+                    }
+                    else {
+                        Toastr.error(data.message);
+                    }
                 }
-                else {
-                    Toastr.error(data.message);
-                }
-            }
-        });
-    }
-});
-    }
+            });
+        }
+    });
+}
