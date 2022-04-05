@@ -25,4 +25,8 @@
     <ProjectReference Include="..\NehaBooks.Utility\NehaBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>

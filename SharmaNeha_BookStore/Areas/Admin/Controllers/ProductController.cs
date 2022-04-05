@@ -55,7 +55,7 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
             return View(productVM);
         }
         //use HTTP POST to define thepost-action method
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
@@ -72,7 +72,7 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
             }
 
             return View(product);
-        }*/
+        }
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()

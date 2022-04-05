@@ -1,4 +1,4 @@
-﻿@model  NehaBooks.Models.ViewModels.ProductVM
+﻿@model NehaBooks.Models.ViewModels.ProductVM
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -115,4 +115,19 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/vmfwxbsjfn9q1yo68o6fvn3607azhti52bp6gsxwmdg4uoas/tinymce/5/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+        function validateInput() {
+            if (document.getElementById("uploadBox").value = "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
 }
