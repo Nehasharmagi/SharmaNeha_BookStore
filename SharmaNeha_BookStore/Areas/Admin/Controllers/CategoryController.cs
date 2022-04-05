@@ -48,6 +48,18 @@ namespace SharmaNeha_BookStore.Areas.Admin.Controllers
             return Json(new { data = allObj });
 
         }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error While Deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "delete successfully" });
+        }
         #endregion
     }
 }
