@@ -224,8 +224,22 @@ then i add view class as Index.cshtml add for add the category...
 
 i run the application and my application sucessfully and it shows me add category page
 
+************************************
+Part 2 second half
+************************************
 
- 
+03-04-2022
+
+9:30pm
+
+First i bulid my previous project 
+
+After that i create the classes in shared folder as _createAnd backTolistButton,EditBackToListButton,_layout.cshtml..
+
+11:00pm
+
+within the js i create the category.js within this and edit it 
+
 
 
 
