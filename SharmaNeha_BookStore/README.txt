@@ -242,6 +242,19 @@ within the js i create the category.js within this and edit it
 
 
 
+**************************
+
+part three start
+
+**************************
+5-04-2022
+
+11:05am
+
+Create the database CoverTypeToDB
+
+
+
 
 
 
