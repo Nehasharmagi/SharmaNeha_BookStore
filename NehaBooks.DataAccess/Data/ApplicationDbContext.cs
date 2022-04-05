@@ -17,6 +17,6 @@ namespace SharmaNeha_BookStore.DataAccess.Data
 
         public DbSet<CoverType> CoverTypes { get; set; }
 
-       
+        public DbSet<Product> products { get; set; }
     }
 }
