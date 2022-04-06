@@ -240,7 +240,12 @@ After that i create the classes in shared folder as _createAnd backTolistButton,
 
 within the js i create the category.js within this and edit it 
 
+I got the error in edit in cshtml file... 
 
+I remove it ... after search on internet....
+
+
+then i move to next part.....
 
 **************************
 
@@ -285,6 +290,10 @@ I find the Error and remove becuase i Edit the Button name is wrong But Used the
 
 again I run this application my app run sc=ucessfully and edit button is also work........
 
+1735
+
+create covertype.js file
+
 1740 
 
 i again start the appplication and my layout button delete is in bule color because of my layout but i want to make it red then add the danager in front of button my buuton layout color is changed..
@@ -293,7 +302,87 @@ i again start the appplication and my layout button delete is in bule color beca
 
 i feel happy and took the rest for few hours and do others work of study......
 
-2
+2030
+
+I again work on project 
+
+2038
+
+add the migration of AddProductToDb ------20220405203846_AddProductToDb
+
+After that i update the database....
+
+2040
+
+I create the IProductRepostioary and ProductRepostionary.cs iunitRepostary,unitofRepostiary class files
+
+2050
+
+Create the Product.cs
+
+2055
+
+Add the product to ApplicationDb context..
+
+2100
+
+update the database...
+
+2105
+
+i create the controllerclass whose name is  ProductController.cs
+
+2110
+
+Add the code in it
+
+2125
+
+under view create the indexcs.html  and  upsert.cshtml partialview as partial...
+
+2140
+
+Add the product.cs in model database project
+
+2145
+
+add the package MVC.viewFeatures
+
+After that package i build the projects and remove the errors...
+
+2150
+
+after that i add the script in https://cdn.tiny.cloud/1/vmfwxbsjfn9q1yo68o6fvn3607azhti52bp6gsxwmdg4uoas/tinymce/5/tinymce.min.js in Upsert.cshtml folder
+
+2155
+
+took the rest for few hours... go to walk with friends......
+
+06-04-2022
+1335
+
+Add the images folder in root directory...
+
+1340 
+
+run the application .. my application completely......
+
+i very happpy........
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
