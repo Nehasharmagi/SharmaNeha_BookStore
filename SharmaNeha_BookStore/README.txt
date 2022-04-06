@@ -249,9 +249,51 @@ part three start
 **************************
 5-04-2022
 
-11:05am
+1504
 
-Create the database CoverTypeToDB
+Create the database CoverTypeToDB  --20220405150400_AddCoverTypeToDb
+
+1517
+
+Create the Repostiary Files of ICoverTypeRepostiary.cs amd CoverType.cs Class
+
+1528
+
+Create CoverTypeController.cs under the controllers folder...
+
+1550
+
+Add the CoverType under this we create the two files index.cshtml and Upsert.cshtml
+
+1620
+
+Add the code in these files 
+
+1630
+
+Create the covertype.cs in Datamodel under the viewModel...
+
+1640
+
+After i Run the Application my application run sucessfully But still i got the errors in edit View page 
+
+1700
+
+I find the Error and remove becuase i Edit the Button name is wrong But Used the different EditButton... Then i rename it It solve this error......
+
+1720 
+
+again I run this application my app run sc=ucessfully and edit button is also work........
+
+1740 
+
+i again start the appplication and my layout button delete is in bule color because of my layout but i want to make it red then add the danager in front of button my buuton layout color is changed..
+
+1800
+
+i feel happy and took the rest for few hours and do others work of study......
+
+
 
 
 
