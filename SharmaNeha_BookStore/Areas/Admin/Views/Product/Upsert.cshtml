@@ -8,7 +8,7 @@
 <form method="post" enctype="multipart/form-data">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.Product.Id != 0)       // if this value is null it will not display 'Edit Category', change to  0
+        @if (Model.Product.Id != 0)
         {
             // edit
             title = "Edit Product";
@@ -51,6 +51,7 @@
                 </div>
                 <div class="col-8">
                     <textarea asp-for="Product.Description" class="form-control"></textarea>
+                    <span asp-validation-for="Product.Author" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
@@ -60,6 +61,33 @@
                 <div class="col-8">
                     <input asp-for="Product.ListPrice" class="form-control" />
                     <span asp-validation-for="Product.ListPrice" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Price"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Product.Price" class="form-control" />
+                    <span asp-validation-for="Product.Price" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Price50"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Product.Price50" class="form-control" />
+                    <span asp-validation-for="Product.Price50" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Price100"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Product.Price100" class="form-control" />
+                    <span asp-validation-for="Product.Price100" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
@@ -110,24 +138,35 @@
                 </div>
             </div>
         </div>
+        @if (Model.Product.Id != 0)
+        {
+            <div class="col-3 offset-1 pt-4">
+                <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+            </div>
+        }
     </div>
 </form>
 
-@section Scripts {
+@section Scripts{
     <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.tiny.cloud/1/vmfwxbsjfn9q1yo68o6fvn3607azhti52bp6gsxwmdg4uoas/tinymce/5/tinymce.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script>
+
     <script>
+
         tinymce.init({
             selector: 'textarea',
             plugins: 'lists',
             menubar: 'file edit format'
         });
+
+
         function validateInput() {
-            if (document.getElementById("uploadBox").value = "") {
+            if (document.getElementById("uploadBox").value == "") {
                 swal("Error", "Please select an image", "error");
                 return false;
             }
             return true;
         }
+
     </script>
 }
