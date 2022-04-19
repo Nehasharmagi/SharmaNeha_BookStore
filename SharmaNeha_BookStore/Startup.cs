@@ -42,7 +42,9 @@ namespace SharmaNeha_BookStore
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             
           services.AddScoped<NehaBooks.DataAccess.Repository.IRepository.IUnitOfWork, NehaBooks.DataAccess.Repository.UnitOfWork>();
-            services.AddControllersWithViews();
+           
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
 
         }
 
