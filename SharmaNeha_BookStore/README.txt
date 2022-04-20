@@ -472,6 +472,13 @@ when i run the application my category ,covertype is database is store and
 
 still same thing with product in Database is goes in database but with Null values....
 
+2000
+
+I again create the Database because datab is not enter in databse.....
+
+Then i Create the data of product again .......     20220420005854_AddProductToDb.cs
+
+
 1530
 
 I try find on internet lot ....
