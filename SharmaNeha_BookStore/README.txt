@@ -369,6 +369,128 @@ run the application .. my application completely......
 
 i very happpy........
 
+***************************************************
+17-04-2022
+
+Part 4
+
+***************************************************
+
+Now I work on create the Product 
+
+
+13:00Am
+
+firstly i check the Application is it working 
+
+then run the application 
+
+my run sucessfully
+
+1315
+
+I work on product.js 
+
+I Create the feild of database in this files....
+
+1350
+
+with the  productController.js I add the Image code...
+
+19-04-2022
+
+1000
+
+I again start to work in Project
+
+1005
+
+I add the Folder Images in wwwroot products
+
+1020
+
+within the Upsert.cshtml add the code...
+
+1030
+
+add the code in product.js
+
+1100
+
+after that i add the files all the of product 
+
+1120
+
+i run app but is one thing happen me
+
+1130
+
+when i add the data in product but data is not add in database... and did not me any free.....
+
+
+1200
+
+create button  works fully i show me when i did not insert the image ...
+
+it shows me pop message..
+
+1210
+
+After that check each every files again still same things is happen
+
+this is only problem in database product but my database is create successfully...
+
+1400
+
+again i try  and the update database...
+
+1420
+
+i also check sqlserver object is my database is create 
+
+But my database is already create with proper field ....
+
+
+1430
+
+But big problem is that it did not show me error... 
+
+on console i find alot......
+
+
+1435
+
+I feel very sad because it did not do this one .....
+
+1500
+
+I try again and upadte all the files and database...
+
+1520
+
+when i run the application my category ,covertype is database is store and 
+
+still same thing with product in Database is goes in database but with Null values....
+
+1530
+
+I try find on internet lot ....
+
+but i did not what happen .....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
