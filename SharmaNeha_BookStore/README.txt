@@ -476,6 +476,8 @@ still same thing with product in Database is goes in database but with Null valu
 
 I again create the Database because datab is not enter in databse.....
 
+add the migration of AddProductToDb
+
 Then i Create the data of product again .......     20220420005854_AddProductToDb.cs
 
 
