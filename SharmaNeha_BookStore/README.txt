@@ -495,6 +495,22 @@ Same thing happen..
 
 My application is run properly....
 
+1408
+
+Category  is working when add the create in data in databse it create and add the databse and edit and delete is also working....
+
+Covertype is also working 
+
+But i have one problem my product data is enter null but my create button is working image error show me when  click on the image .... when i insert the image and add all the database...
+
+I add each every files and i show in classroom on the tuesday but still same thing happen and idid not show me error...
+
+I do try lot of times and find the error but it never show me error and but still at end moment i never lose my hopes and try lot but same thing happen...
+
+my application is running .......
+
+
+
 
 
 
